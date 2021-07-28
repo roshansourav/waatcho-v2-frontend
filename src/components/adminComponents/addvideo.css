@@ -1,0 +1,14 @@
+.card {
+    margin: 0 auto; /* Added */
+    float:none; /* Added */
+    margin-bottom: 10px; /* Added */
+    margin-top: 10% !important;
+    width: 700px;
+}
+.btn-width{
+    width: 200px;
+}
+
+body{
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%) !important;
+}

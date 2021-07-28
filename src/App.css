@@ -1,0 +1,16 @@
+.navbar{
+    z-index: 1;
+    margin-bottom: -1px;
+}
+
+nav li:hover {
+    border-top: 1px solid #f9ca24;
+    border-bottom: 1px solid #7f8fa6;
+    /* padding: 2px 0;  */
+  }
+
+.custom-animation:hover{
+    border-top: 1px solid #f9ca24;
+    border-bottom: 1px solid #7f8fa6;
+    /* padding: 2px 0;  */
+}
