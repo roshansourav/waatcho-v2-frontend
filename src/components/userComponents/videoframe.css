@@ -1,8 +1,22 @@
 .custom{
     width: 740px !important;
+    /* background-color: black !important;
+    color: #f1f1f1 !important; */
 }
 
 body{
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%) !important;
 }
 
+/* button {
+    text-decoration: none !important;
+    display: inline-block !important;
+    padding: 8px 16px !important;
+  }
+  
+  button:hover {
+    background-color: #ddd !important;
+    color: black !important;
+  }
+  
+  */

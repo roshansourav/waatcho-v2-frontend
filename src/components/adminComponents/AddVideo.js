@@ -4,10 +4,10 @@ import axios from 'axios';
 import "./addvideo.css";
 
 
-const S3_BUCKET = 'YOUR_BUCKET_NAME_HERE';
-const REGION = 'REGION_HERE';
-const ACCESS_KEY = 'YOUR_KEY_ID_HERE';
-const SECRET_ACCESS_KEY = 'YOUR_ACCESS_KEY_HERE';
+const S3_BUCKET = 'BUCKET_NAME';
+const REGION = 'REGION';
+const ACCESS_KEY = 'KEY_ID';
+const SECRET_ACCESS_KEY = 'SECRET_ACCESS';
 
 const config = {
     bucketName: S3_BUCKET,

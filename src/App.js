@@ -10,6 +10,8 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import GetAllVideoList from './components/userComponents/GetAllVideoList';
+import { HouseFill, CloudPlusFill, CollectionPlayFill, CameraReelsFill } from 'react-bootstrap-icons';
 
 
 function App() {
@@ -29,19 +31,25 @@ function App() {
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto">
                             <li class="nav-item active">
-                                <Link class="nav-link" to="/">Home</Link>
+                                <Link class="nav-link" to="/">{<HouseFill />} Home</Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link" to="/AddVideo">Add New Video</Link>
+                                <Link class="nav-link" to="/AddVideo">{<CloudPlusFill />} Add New</Link>
                             </li>
                             <li class="nav-item">
-                                <Link class="nav-link" to="/VideoFrame">Play Video</Link>
+                                <Link class="nav-link" to="/VideoFrame">{<CollectionPlayFill />} Play Video</Link>
+                            </li>
+                            <li class="nav-item">
+                                <Link class="nav-link" to="/getAllVideoList">{<CameraReelsFill />} Videos List</Link>
                             </li>
                         </ul>
                     </div>
                 </nav>
 
                 <Switch>
+                <Route path="/getAllVideoList">
+                        <GetAllVideoList />
+                    </Route>
                     <Route path="/AddVideo">
                         <AddVideo />
                     </Route>
